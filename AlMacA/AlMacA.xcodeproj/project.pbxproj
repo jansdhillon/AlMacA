@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA25E97629E6623F005651DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25E97529E6623F005651DA /* AppDelegate.swift */; };
-		DA25E97829E6623F005651DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25E97729E6623F005651DA /* ViewController.swift */; };
-		DA25E97A29E66240005651DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA25E97929E66240005651DA /* Assets.xcassets */; };
-		DA25E97D29E66240005651DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA25E97B29E66240005651DA /* Main.storyboard */; };
+		DA307EC929E8AB1400ECF681 /* AlMacAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307EC829E8AB1400ECF681 /* AlMacAApp.swift */; };
+		DA307ECB29E8AB1400ECF681 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307ECA29E8AB1400ECF681 /* ContentView.swift */; };
+		DA307ECD29E8AB1500ECF681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA307ECC29E8AB1500ECF681 /* Assets.xcassets */; };
+		DA307ED029E8AB1500ECF681 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA307ECF29E8AB1500ECF681 /* Preview Assets.xcassets */; };
+		DA307ED829E8AB8700ECF681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307ED729E8AB8700ECF681 /* AppDelegate.swift */; };
+		DA307EDB29E8AEF600ECF681 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307EDA29E8AEF600ECF681 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA25E97229E6623F005651DA /* AlMacA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlMacA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA25E97529E6623F005651DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA25E97729E6623F005651DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA25E97929E66240005651DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA25E97C29E66240005651DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA25E97E29E66240005651DA /* AlMacA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlMacA.entitlements; sourceTree = "<group>"; };
+		DA307EC529E8AB1400ECF681 /* AlMacA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlMacA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA307EC829E8AB1400ECF681 /* AlMacAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlMacAApp.swift; sourceTree = "<group>"; };
+		DA307ECA29E8AB1400ECF681 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA307ECC29E8AB1500ECF681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA307ECF29E8AB1500ECF681 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA307ED129E8AB1500ECF681 /* AlMacA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlMacA.entitlements; sourceTree = "<group>"; };
+		DA307ED729E8AB8700ECF681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA307ED929E8AE4600ECF681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA307EDA29E8AEF600ECF681 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA25E96F29E6623F005651DA /* Frameworks */ = {
+		DA307EC229E8AB1400ECF681 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,44 +38,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA25E96929E6623F005651DA = {
+		DA307EBC29E8AB1400ECF681 = {
 			isa = PBXGroup;
 			children = (
-				DA25E97429E6623F005651DA /* AlMacA */,
-				DA25E97329E6623F005651DA /* Products */,
+				DA307EC729E8AB1400ECF681 /* AlMacA */,
+				DA307EC629E8AB1400ECF681 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA25E97329E6623F005651DA /* Products */ = {
+		DA307EC629E8AB1400ECF681 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA25E97229E6623F005651DA /* AlMacA.app */,
+				DA307EC529E8AB1400ECF681 /* AlMacA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA25E97429E6623F005651DA /* AlMacA */ = {
+		DA307EC729E8AB1400ECF681 /* AlMacA */ = {
 			isa = PBXGroup;
 			children = (
-				DA25E97529E6623F005651DA /* AppDelegate.swift */,
-				DA25E97729E6623F005651DA /* ViewController.swift */,
-				DA25E97929E66240005651DA /* Assets.xcassets */,
-				DA25E97B29E66240005651DA /* Main.storyboard */,
-				DA25E97E29E66240005651DA /* AlMacA.entitlements */,
+				DA307ED929E8AE4600ECF681 /* Info.plist */,
+				DA307ED729E8AB8700ECF681 /* AppDelegate.swift */,
+				DA307EDA29E8AEF600ECF681 /* ChatView.swift */,
+				DA307EC829E8AB1400ECF681 /* AlMacAApp.swift */,
+				DA307ECA29E8AB1400ECF681 /* ContentView.swift */,
+				DA307ECC29E8AB1500ECF681 /* Assets.xcassets */,
+				DA307ED129E8AB1500ECF681 /* AlMacA.entitlements */,
+				DA307ECE29E8AB1500ECF681 /* Preview Content */,
 			);
 			path = AlMacA;
+			sourceTree = "<group>";
+		};
+		DA307ECE29E8AB1500ECF681 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA307ECF29E8AB1500ECF681 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA25E97129E6623F005651DA /* AlMacA */ = {
+		DA307EC429E8AB1400ECF681 /* AlMacA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA25E98129E66240005651DA /* Build configuration list for PBXNativeTarget "AlMacA" */;
+			buildConfigurationList = DA307ED429E8AB1500ECF681 /* Build configuration list for PBXNativeTarget "AlMacA" */;
 			buildPhases = (
-				DA25E96E29E6623F005651DA /* Sources */,
-				DA25E96F29E6623F005651DA /* Frameworks */,
-				DA25E97029E6623F005651DA /* Resources */,
+				DA307EC129E8AB1400ECF681 /* Sources */,
+				DA307EC229E8AB1400ECF681 /* Frameworks */,
+				DA307EC329E8AB1400ECF681 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -78,25 +94,25 @@
 			);
 			name = AlMacA;
 			productName = AlMacA;
-			productReference = DA25E97229E6623F005651DA /* AlMacA.app */;
+			productReference = DA307EC529E8AB1400ECF681 /* AlMacA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA25E96A29E6623F005651DA /* Project object */ = {
+		DA307EBD29E8AB1400ECF681 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					DA25E97129E6623F005651DA = {
+					DA307EC429E8AB1400ECF681 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = DA25E96D29E6623F005651DA /* Build configuration list for PBXProject "AlMacA" */;
+			buildConfigurationList = DA307EC029E8AB1400ECF681 /* Build configuration list for PBXProject "AlMacA" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,53 +120,44 @@
 				en,
 				Base,
 			);
-			mainGroup = DA25E96929E6623F005651DA;
-			productRefGroup = DA25E97329E6623F005651DA /* Products */;
+			mainGroup = DA307EBC29E8AB1400ECF681;
+			productRefGroup = DA307EC629E8AB1400ECF681 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA25E97129E6623F005651DA /* AlMacA */,
+				DA307EC429E8AB1400ECF681 /* AlMacA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA25E97029E6623F005651DA /* Resources */ = {
+		DA307EC329E8AB1400ECF681 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA25E97A29E66240005651DA /* Assets.xcassets in Resources */,
-				DA25E97D29E66240005651DA /* Main.storyboard in Resources */,
+				DA307ED029E8AB1500ECF681 /* Preview Assets.xcassets in Resources */,
+				DA307ECD29E8AB1500ECF681 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA25E96E29E6623F005651DA /* Sources */ = {
+		DA307EC129E8AB1400ECF681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA25E97829E6623F005651DA /* ViewController.swift in Sources */,
-				DA25E97629E6623F005651DA /* AppDelegate.swift in Sources */,
+				DA307EDB29E8AEF600ECF681 /* ChatView.swift in Sources */,
+				DA307ED829E8AB8700ECF681 /* AppDelegate.swift in Sources */,
+				DA307ECB29E8AB1400ECF681 /* ContentView.swift in Sources */,
+				DA307EC929E8AB1400ECF681 /* AlMacAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		DA25E97B29E66240005651DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA25E97C29E66240005651DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		DA25E97F29E66240005651DA /* Debug */ = {
+		DA307ED229E8AB1500ECF681 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		DA25E98029E66240005651DA /* Release */ = {
+		DA307ED329E8AB1500ECF681 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,21 +270,24 @@
 			};
 			name = Release;
 		};
-		DA25E98229E66240005651DA /* Debug */ = {
+		DA307ED529E8AB1500ECF681 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AlMacA;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AlMacA/AlMacA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlMacA/Preview Content\"";
 				DEVELOPMENT_TEAM = DFA4WUBF93;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlMacA/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -290,21 +300,24 @@
 			};
 			name = Debug;
 		};
-		DA25E98329E66240005651DA /* Release */ = {
+		DA307ED629E8AB1500ECF681 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AlMacA;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AlMacA/AlMacA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlMacA/Preview Content\"";
 				DEVELOPMENT_TEAM = DFA4WUBF93;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlMacA/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -320,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA25E96D29E6623F005651DA /* Build configuration list for PBXProject "AlMacA" */ = {
+		DA307EC029E8AB1400ECF681 /* Build configuration list for PBXProject "AlMacA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA25E97F29E66240005651DA /* Debug */,
-				DA25E98029E66240005651DA /* Release */,
+				DA307ED229E8AB1500ECF681 /* Debug */,
+				DA307ED329E8AB1500ECF681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA25E98129E66240005651DA /* Build configuration list for PBXNativeTarget "AlMacA" */ = {
+		DA307ED429E8AB1500ECF681 /* Build configuration list for PBXNativeTarget "AlMacA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA25E98229E66240005651DA /* Debug */,
-				DA25E98329E66240005651DA /* Release */,
+				DA307ED529E8AB1500ECF681 /* Debug */,
+				DA307ED629E8AB1500ECF681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA25E96A29E6623F005651DA /* Project object */;
+	rootObject = DA307EBD29E8AB1400ECF681 /* Project object */;
 }
