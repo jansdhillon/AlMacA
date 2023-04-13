@@ -18,7 +18,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let statusBar = NSStatusBar.system
         
         self.statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
-        self.statusBarItem.button?.image = NSImage(systemSymbolName: "star.fill", accessibilityDescription: "AlMacA")
+        self.statusBarItem.button?.image = NSImage(imageLiteralResourceName: "AlMacA")
+        self.statusBarItem.button?.image?.size = NSSize(width: 18.0, height: 18.0)
         
         self.statusBarMenu = NSMenu()
         self.statusBarMenu.addItem(withTitle: "Chat", action: #selector(startChat), keyEquivalent: "")
