@@ -13,6 +13,7 @@
 		DA307ED029E8AB1500ECF681 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA307ECF29E8AB1500ECF681 /* Preview Assets.xcassets */; };
 		DA307ED829E8AB8700ECF681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307ED729E8AB8700ECF681 /* AppDelegate.swift */; };
 		DA307EDB29E8AEF600ECF681 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA307EDA29E8AEF600ECF681 /* ChatView.swift */; };
+		DABD1FB629EF05F2001B6A3D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABD1FB529EF05F2001B6A3D /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DA307ED729E8AB8700ECF681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA307ED929E8AE4600ECF681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DA307EDA29E8AEF600ECF681 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DABD1FB529EF05F2001B6A3D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DA307ED729E8AB8700ECF681 /* AppDelegate.swift */,
 				DA307EDA29E8AEF600ECF681 /* ChatView.swift */,
 				DA307EC829E8AB1400ECF681 /* AlMacAApp.swift */,
+				DABD1FB529EF05F2001B6A3D /* ChatViewModel.swift */,
 				DA307ECA29E8AB1400ECF681 /* ContentView.swift */,
 				DA307ECC29E8AB1500ECF681 /* Assets.xcassets */,
 				DA307ED129E8AB1500ECF681 /* AlMacA.entitlements */,
@@ -150,6 +153,7 @@
 				DA307EDB29E8AEF600ECF681 /* ChatView.swift in Sources */,
 				DA307ED829E8AB8700ECF681 /* AppDelegate.swift in Sources */,
 				DA307ECB29E8AB1400ECF681 /* ContentView.swift in Sources */,
+				DABD1FB629EF05F2001B6A3D /* ChatViewModel.swift in Sources */,
 				DA307EC929E8AB1400ECF681 /* AlMacAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
